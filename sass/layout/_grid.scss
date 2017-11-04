@@ -1,0 +1,63 @@
+.row-centered {
+	margin: 0;
+    max-width: 100%;
+
+    color: black;
+    text-align:center;
+ 
+}
+
+.col-sm-6 {
+
+    padding: 15px;
+	height: 17em;
+	
+	background-position: center;
+	background-size: cover;
+
+	color: $color-darkgrey;
+}
+
+
+.col-content {
+
+	padding: 2em;
+	height: 100%;
+
+	background: rgba(246, 240, 241, 0.7);
+	
+	text-align: justify;
+
+	
+	opacity: 0;
+ 	transition: opacity 0.3s linear;
+
+ 		&:hover { opacity: 1; }
+}
+
+
+.col-slio {
+	margin: 2em 0;
+	padding: 1em;
+	height: 100%;
+
+
+}
+
+.col-mab {
+	margin: 2em 0;
+}
+
+.col-jointherebels {
+	top:10%;
+	position: -webkit-sticky;
+
+
+}
+
+.col-jointherebels .content {
+	text-align: justify;
+	padding: 15px;
+	margin-bottom: 3em;
+
+}

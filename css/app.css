@@ -1,0 +1,242 @@
+/* line 1, ../sass/base/_base.scss */
+body {
+  background-color: #322F32;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+}
+
+/* line 11, ../sass/base/_base.scss */
+h1, h2, h3 {
+  font-family: 'Signika', sans-serif;
+}
+
+/* line 16, ../sass/base/_base.scss */
+p {
+  text-align: justify;
+}
+
+/* line 20, ../sass/base/_base.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/layout/_layout.scss */
+.container-fluid {
+  width: 100%;
+  background-color: #F6F0F1;
+  padding: 2em 0;
+}
+
+/* line 1, ../sass/layout/_header.scss */
+.header {
+  background-color: #322F32;
+}
+
+/* line 7, ../sass/layout/_header.scss */
+.header-img {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 47em;
+}
+
+/* line 14, ../sass/layout/_header.scss */
+.header-title {
+  margin-top: 0%;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: #F6F0F1;
+  text-align: center;
+}
+
+/* line 1, ../sass/layout/_section-presentation.scss */
+.section-presentation {
+  max-width: 80%;
+  margin: 3em auto;
+  color: #322F32;
+}
+
+/* line 10, ../sass/layout/_section-presentation.scss */
+.section-title {
+  display: inline;
+  margin-right: 0.5em;
+  color: #9E464C;
+}
+
+/* line 16, ../sass/layout/_section-presentation.scss */
+.section-comps {
+  margin: 1em auto;
+  text-align: center;
+}
+
+/* line 22, ../sass/layout/_section-presentation.scss */
+.section-comps td {
+  padding: 1em;
+}
+
+/* line 28, ../sass/layout/_section-presentation.scss */
+.fa {
+  padding: 30px;
+  border: #322F32 5px solid;
+  border-radius: 130px;
+  font-size: 130px;
+}
+
+/* line 37, ../sass/layout/_section-presentation.scss */
+.comps {
+  max-width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+/* line 1, ../sass/layout/_section-background.scss */
+.section-background {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+
+/* line 1, ../sass/layout/_grid.scss */
+.row-centered {
+  margin: 0;
+  max-width: 100%;
+  color: black;
+  text-align: center;
+}
+
+/* line 10, ../sass/layout/_grid.scss */
+.col-sm-6 {
+  padding: 15px;
+  height: 17em;
+  background-position: center;
+  background-size: cover;
+  color: #322F32;
+}
+
+/* line 22, ../sass/layout/_grid.scss */
+.col-content {
+  padding: 2em;
+  height: 100%;
+  background: rgba(246, 240, 241, 0.7);
+  text-align: justify;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+/* line 35, ../sass/layout/_grid.scss */
+.col-content:hover {
+  opacity: 1;
+}
+
+/* line 39, ../sass/layout/_grid.scss */
+.col-slio {
+  margin: 2em 0;
+  padding: 1em;
+  height: 100%;
+}
+
+/* line 47, ../sass/layout/_grid.scss */
+.col-mab {
+  margin: 2em 0;
+}
+
+/* line 51, ../sass/layout/_grid.scss */
+.col-jointherebels {
+  top: 10%;
+  position: -webkit-sticky;
+}
+
+/* line 58, ../sass/layout/_grid.scss */
+.col-jointherebels .content {
+  text-align: justify;
+  padding: 15px;
+  margin-bottom: 3em;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+.footer {
+  background-color: #322F32;
+  width: 100%;
+  padding: 10px;
+  color: #F6F0F1;
+}
+
+/* line 8, ../sass/layout/_footer.scss */
+.footer-item {
+  color: #F6F0F1;
+  margin: 0px;
+  padding-top: 10px;
+  font-family: 'Signika', sans-serif;
+}
+
+/* line 16, ../sass/layout/_footer.scss */
+.footer-info {
+  margin-left: auto;
+}
+
+/* line 21, ../sass/layout/_footer.scss */
+.footer td {
+  padding: 1.3em;
+  text-align: center;
+}
+
+/* line 27, ../sass/layout/_footer.scss */
+.footer-img {
+  margin: auto;
+  padding: 3em 0;
+  max-width: 30em;
+}
+
+/* line 33, ../sass/layout/_footer.scss */
+.footer-copyright {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+/* line 40, ../sass/layout/_footer.scss */
+.footer-copyright a {
+  color: #F6F0F1;
+  text-decoration: underline;
+}
+/* line 44, ../sass/layout/_footer.scss */
+.footer-copyright a:hover {
+  color: #BA2A47;
+}
+
+/* line 1, ../sass/module/_project.scss */
+.project-title {
+  margin-top: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 9, ../sass/module/_project.scss */
+.project-text {
+  text-align: justify;
+}
+
+/* line 1, ../sass/module/_description-lightbox.scss */
+.description-lightbox {
+  padding: 2em;
+  width: 50%;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  overflow: scroll;
+  background: rgba(246, 240, 241, 0.7);
+}
+
+/* line 18, ../sass/module/_description-lightbox.scss */
+.lightbox-title {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* line 1, ../sass/module/_tech.scss */
+.tech {
+  padding: 1em;
+  border-left: 4px solid #BA2A47;
+  background-color: #A392A5;
+  color: #F6F0F1;
+}

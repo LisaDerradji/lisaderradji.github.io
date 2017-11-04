@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 
 <head>
-	 <!-- INITIALISATION BOOTSTRAP -->
+ 
 	<meta charset="utf-8">
+    <title>Lisa Derradji</title>
+    <!-- INITIALISATION BOOTSTRAP -->
   	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
- <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- INITIALISATION INCLUDE HTML -->
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+
+    <!-- INITIALISATION POLICES -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Signika:700" rel="stylesheet"> 
+
+    <!-- INITIALISATION ICONE FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="css/app.css">
 
 
 
@@ -17,26 +30,52 @@
 
 <body>
 
-<div id="header">
-
-<a href="index.html"><img src="img/logo-header.png" class="img-responsive" ;></a>
-
-<h2>22 ans · Paris</h2>
-
-</div>
+<div w3-include-html="header.html"></div>
 
 	 <!-- CORPS DE LA PAGE -->
   
 <div class="container-fluid">
 
-<div id="prez">
+        <div class="section-presentation">
 
 
-<h3>Mes trucs que j'ai fait dans ma life</h3>
+            <h2 class="section-title">Qui je suis</h2></br><br/>
 
-  <p><strong>Quelques mots de présentation.</strong> The following example will result in a 25%/75% split on small devices and a 50%/50% split on medium (and large) devices. On extra small devices, it will automatically stack (100%).</p>
+              <p>Passionnée par les nouveaux médias, le net et la technologie, j’ai toujours eu, aussi loin que je m’en souvienne, la fibre artistique. Musicienne depuis plus de 10 ans, je suis également une cinéphile diplômée en Études Cinématographiques à l’Université Paris 1 Panthéon-Sorbonne. <strong>Je propose mes services de création graphique et d’intégration web tout en poursuivant des études de cinéma</strong> à l’Université Paris 8.</p>
 
-</div>
+              </br>
+
+            <h2 class="section-title">Mes compétences et savoirs-faire</h2>
+
+            <table class="section-comps">
+
+                <tr>
+                    <td><i class="fa fa-laptop"></i></td>
+                    <td><i class="fa fa-paint-brush"></i></td>
+                </tr>
+
+                <tr>
+                  
+                    <td>
+                      <h3>Webdesign</h3>
+                      <p class="comps">Création de site internet, thèmes de blogs, intégration WordPress</br>
+                      <strong>[Adobe Photoshop, HTML / CSS, Wordpress]</strong></p>
+                    </td>
+
+                    <td> 
+                      <h3>Identité visuelle, print, illustration</h3>
+                      <p class="comps">Affiches, autocollants, cartes de visites, papier à lettre, plaquette…</br>
+                      <strong>[Adobe Illustrator, Final Cut Pro X, Adobe InDesign, Adobe AfterEffect]</strong></p>
+                    </td>
+
+                </tr>
+
+            </table>
+
+
+
+
+        </div>
 
   <!-- DÉBUT DE LA LIGHTBOX -->
 
@@ -44,102 +83,60 @@
 
     <div class="row row-centered">
 
-<!-- <div class="col-xs-4 col-centered col-fixed"> -->
+    <!-- <div class="col-xs-4 col-centered col-fixed"> -->
 
-    <!-- CELLULE #1 -->
-        <div class="col-sm-6 col-md-4" style="background-color: powderblue">
-        	
-        <div class="content">
+            <!-- CELLULE #1 -->
+                <a href="slio-kit.html"><div class="col-sm-6 col-md-4" style="background-image: url('img/slio1.png')">
+                	
+                <div class="col-content">
 
-        <h4><strong>SOMELIKEITOTTER</strong></h4>
-        <p>Bonjour. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.This is some text. This is some text. This is some text. This is some text.</p>
-        
-        </div>
+                <h3 class="project-title">Cartes de visites</h3>
 
-        </div>
+                <p class="project-text"><strong>Some Like It Otter.</strong> Kit de communication graphique. Conception d'un logo, d'un design de cartes de visite et d'un papier à lettre. Ensemble destiné à l'impression. SOME LIKE IT OTTER est un restaurant vegan parisien imaginaire de type bistrot.</p>
+                
+                </div>
 
-        
-
-    <!-- CELLULE #2 -->
-    	<div class="col-sm-6 col-md-4" style="background-color: lightgreen">
-        
-        <div class="content">
-        
-        <h4><strong>SensitiveGator</strong></h4>
-        <p><strong>Homemade organic vegan shampoo.</strong> This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.This is some text. This is some text. This is some text. This is some text.</p>
-       
-        </div>
-        
-        </div>
-
-
-    <!-- CELLULE #3 -->
-       <a href="propaganda.html"> <div class="col-sm-6 col-md-4" style="background-image: url(img/propaganda.png)";> 
-        
-        <div class="content">    
-        
-        <h4><strong>Join The Rebels Now!</strong></h4>
-        <p><strong>Printapable posters with beautiful faces.</strong> This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.This is some text. This is some text. This is some text. This is some text.</p>
-       
-        </div>
-        
-        </div></a>
-        
-
-
-
-
-
-
-
-    <!-- CELLULE #4 -->
-        <div class="col-sm-6 col-md-4" style="background-color: lavender">
-            
-        <div class="content">
-
-        <h4><strong>Ava is Angry</strong></h4>
-        <p>Bonjour. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.This is some text. This is some text. This is some text. This is some text.</p>
-
-        </div>
-
-        </div>
-        
-
-    <!-- CELLULE #5 -->
-        <div class="col-sm-6 col-md-4" style="background-color: cornsilk">
-            
-        <div class="content">
-
-        <h4><strong>FemRevWebsite</strong></h4>
-        <p><strong>Wordpress & stuff.</strong> This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.This is some text. This is some text. This is some text. This is some text.</p>
-       
-        </div>
-
-        </div>
-
-    
-    <!-- CELLULE #6 -->
-        <div class="col-sm-6 col-md-4" style="background-color: crimson">
-            
-        <div class="content">
-
-        <h4><strong>La Mort te joue sur la gueule</strong></h4>
-        <p>Bonjour. This is some text. This is some text. This is some text. This is some text. This is some text. This is some text.This is some text. This is some text. This is some text. This is some text.</p>
-        
-        </div>
-
-        </div>
-        
+                </div></a>
 
         
 
-    </div>
+            <!-- CELLULE #2 -->
+            	<a href="mab.html"><div class="col-sm-6 col-md-4" style="background-image: url('img/mab.jpg')">
+                
+                <div class="col-content">
+                
+                <h3 class="project-title">Blog WordPress</h3>
+
+                <p class="project-text"><strong>My Art Blog.</strong> Conception et intégration d'un thème Wordpress. Le site My Art Blog est spécialisé dans l'art, le design, l'architecture… Son thème, basé sur le plugin javascript masonry, est particulièrement adapté pour afficher de nombreuses images. </p>
+               
+                </div>
+                
+                </div></a>
+
+
+            <!-- CELLULE #3 -->
+               <a href="jointherebels.html"> <div class="col-sm-6 col-md-4" style="background-image: url('img/propaganda.png')"> 
+                
+                <div class="col-content">    
+                
+                <h3 class="project-title">Affiches</h3>
+                
+                <p class="project-text"><strong>Join The Rebels Now!</strong> Fausses affiches de propagande à l'effigie de théoriciennes majeures du 20ème siècle. Portraits réalisés à partir de photographies d'époque.</p>
+               
+                </div>
+                
+                </div></a>
+        
+
+
+
+    </div> <!-- FIN DE ROW -->
 
 
 
     
 
-</div>
+</div> <!-- FIN DE CONTAINER-FLUID -->
 
 
 
@@ -155,14 +152,24 @@
 
 	 <!-- PIED DE PAGE -->
 
-<div id="footer">
-	<h3>En savoir plus</h3>
-	<h3>Me contacter</h3>
-	<a>Lien du CV</a>
-</div>
+<div w3-include-html="footer.html"></div>
 
 
+
+<script>
+w3.includeHTML();
+</script>
 
 </body>
+        <script type="text/javascript"> 
+        var $buoop = {notify:{i:-5,f:-4,o:-4,s:-2,c:-4},unsecure:true,unsupported:false,api:5}; 
+        function $buo_f(){ 
+         var e = document.createElement("script"); 
+         e.src = "//browser-update.org/update.min.js"; 
+         document.body.appendChild(e);
+        };
+        try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+        catch(e){window.attachEvent("onload", $buo_f)}
+        </script>
+
 </html>
-/n

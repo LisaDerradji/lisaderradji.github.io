@@ -1,0 +1,41 @@
+.section-presentation {
+
+	max-width: 80%;
+	margin: 3em auto;
+
+	color: $color-darkgrey;
+	
+}
+
+.section-title {
+	display: inline;
+	margin-right: 0.5em;
+	color: $color-primary;
+}
+
+.section-comps {
+	margin: 1em auto;
+	text-align: center;
+}
+
+
+.section-comps td {
+	padding: 1em;
+}
+
+
+
+.fa {
+	padding: 30px;
+
+	border: $color-darkgrey 5px solid;
+	border-radius: 130px;
+
+	font-size: 130px;
+}
+
+.comps {
+	max-width: 90%;
+	text-align: center ;
+	margin: auto ;
+}

@@ -1,0 +1,45 @@
+.footer{
+	background-color: $color-darkgrey;
+	width: 100%;
+	padding: 10px;
+	color: $color-light;
+}
+
+.footer-item {
+	color: $color-light;
+	margin: 0px;
+	padding-top: 10px;
+	font-family: 'Signika', sans-serif;
+
+}
+
+.footer-info {
+	margin-left: auto;
+
+}
+
+.footer td{
+	padding: 1.3em;
+	text-align: center;
+
+}
+
+.footer-img {
+	margin: auto;
+	padding: 3em 0;
+	max-width: 30em;
+}
+
+.footer-copyright {
+	text-align: center;
+	padding-bottom: 2em;
+
+
+}
+
+.footer-copyright a{
+	color: $color-light;
+	text-decoration: underline;
+
+	&:hover{ color: $color-secondary;	}
+}
