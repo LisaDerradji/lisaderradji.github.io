@@ -113,7 +113,12 @@ a {
   color: #322F32;
 }
 
-/* line 22, ../sass/layout/_grid.scss */
+/* line 21, ../sass/layout/_grid.scss */
+.col-md-6 {
+  height: auto;
+}
+
+/* line 26, ../sass/layout/_grid.scss */
 .col-content {
   padding: 2em;
   height: 100%;
@@ -122,34 +127,14 @@ a {
   opacity: 0;
   transition: opacity 0.3s linear;
 }
-/* line 35, ../sass/layout/_grid.scss */
+/* line 39, ../sass/layout/_grid.scss */
 .col-content:hover {
   opacity: 1;
 }
 
-/* line 39, ../sass/layout/_grid.scss */
-.col-slio {
-  margin: 2em 0;
-  padding: 1em;
-  height: 100%;
-}
-
-/* line 47, ../sass/layout/_grid.scss */
-.col-mab {
-  margin: 2em 0;
-}
-
-/* line 51, ../sass/layout/_grid.scss */
-.col-jointherebels {
-  top: 10%;
-  position: -webkit-sticky;
-}
-
-/* line 58, ../sass/layout/_grid.scss */
-.col-jointherebels .content {
-  text-align: justify;
-  padding: 15px;
-  margin-bottom: 3em;
+/* line 42, ../sass/layout/_grid.scss */
+.col-column {
+  margin-bottom: 2em;
 }
 
 /* line 1, ../sass/layout/_footer.scss */
@@ -200,6 +185,11 @@ a {
 /* line 44, ../sass/layout/_footer.scss */
 .footer-copyright a:hover {
   color: #BA2A47;
+}
+
+/* line 1, ../sass/layout/_img.scss */
+.img-gallery {
+  margin-bottom: 2em;
 }
 
 /* line 1, ../sass/module/_project.scss */

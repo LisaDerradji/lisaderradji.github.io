@@ -18,6 +18,10 @@
 	color: $color-darkgrey;
 }
 
+.col-md-6 {
+	height : auto;
+}
+
 
 .col-content {
 
@@ -35,29 +39,7 @@
  		&:hover { opacity: 1; }
 }
 
+.col-column {
 
-.col-slio {
-	margin: 2em 0;
-	padding: 1em;
-	height: 100%;
-
-
-}
-
-.col-mab {
-	margin: 2em 0;
-}
-
-.col-jointherebels {
-	top:10%;
-	position: -webkit-sticky;
-
-
-}
-
-.col-jointherebels .content {
-	text-align: justify;
-	padding: 15px;
-	margin-bottom: 3em;
-
+	margin-bottom: 2em;
 }
